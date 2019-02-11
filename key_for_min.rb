@@ -4,5 +4,10 @@ hardware = {"washers" => 12, "nuts" => 10, "bolts" => 18}
 
 def key_for_min_value(hardware)
   hardware.collect do |items, cost|
+    if cost < 20
+      return cost
+    else
+      
+    
 
 end
