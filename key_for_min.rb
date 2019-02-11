@@ -11,5 +11,5 @@ def key_for_min_value(name_hash)
     smallest_val = val 
 end    
   end
-      key 
+      smallest_key 
 end
