@@ -7,7 +7,7 @@ def key_for_min_value(hardware)
     if cost < 20
       return item
     else cost > 0 
-      return item
+      return nil
     end
       
     
