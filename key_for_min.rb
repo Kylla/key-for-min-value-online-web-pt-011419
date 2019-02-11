@@ -4,10 +4,10 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |item, cost|
-    if cost < 1000
-      return item
-    else cost > 0 
+    if cost == 0 
       return nil
+    else cost > 0 
+      return item
     end
       
     
