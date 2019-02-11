@@ -6,6 +6,8 @@ def key_for_min_value(hardware)
   hardware.collect do |item, cost|
     if cost < 20
       return item
+    else cost > 0 
+      return item
     end
       
     
