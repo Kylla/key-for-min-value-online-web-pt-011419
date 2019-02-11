@@ -3,7 +3,7 @@
 
 
 def key_for_min_value(name_hash)
-  name_hash.collect do |item, cost|
+  name_hash.each do |item, cost|
     if cost == 0 
       return nil
     else cost > 0 
