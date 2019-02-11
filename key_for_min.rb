@@ -9,5 +9,5 @@ def key_for_min_value(hardware)
     end
       
     
-
+end
 end
